@@ -1,4 +1,10 @@
+from fastai.vision.all import (
+    load_learner,
+    PILImage,
+    Resize,
+)
 from fastai.vision.all import *
+from fastai.vision.widgets import *
 import glob
 from random import shuffle
 import streamlit as st
